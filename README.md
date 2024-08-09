@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository contains the frontend code for the Society Management Application, a MERN stack project designed to manage the day-to-day activities of a residential society. The frontend is built using React and integrates with the backend API to provide a seamless user experience.
+This repository contains the frontend code for the Society Management Application, a MERN stack project designed to manage the day-to-day activities of a residential society. The frontend is built using React and vite, and integrates with the backend API to provide a seamless user experience.
 
 ## Features
 
 - User authentication (Login/Signup)
 - Dashboard for residents and admins
 - Manage society members, notices, and events
-- Real-time updates using WebSockets
+<!-- - Real-time updates using WebSockets -->
 - Responsive design using Tailwind CSS
 - Role-based access control
 
@@ -56,7 +56,7 @@ This repository contains the frontend code for the Society Management Applicatio
    Create a `.env` file in the root directory with the following environment variables:
 
    ````env
-   VITE_API_URL=http://localhost:5000/api    ```
+   VITE_API_URL=http://localhost:3000  
 
    ````
 
