@@ -1,6 +1,6 @@
 
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import toast from "react-hot-toast";
 import { useSelector } from "react-redux";

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import devPic from '../images/dypLogo.jpg';
-import { useLogoutMutation } from '../slices/usersApiSlice';
-import { logout } from '../slices/authSlice';
+import { useLogoutMutation } from '../redux_slices/usersApiSlice';
+import { logout } from '../redux_slices/authSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 

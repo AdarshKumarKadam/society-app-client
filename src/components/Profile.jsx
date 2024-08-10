@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import { useUpdateUserMutation } from "../slices/usersApiSlice";
+import { useUpdateUserMutation } from "../redux_slices/usersApiSlice";
 import { useSelector, useDispatch } from "react-redux";
-import { setCredentials } from "../slices/authSlice";
+import { setCredentials } from "../redux_slices/authSlice";
 import Navbar from './Navbar';
 
 const Profile = () => {

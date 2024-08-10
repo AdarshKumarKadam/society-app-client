@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import { useRegisterMutation } from "../slices/usersApiSlice";
+import { useRegisterMutation } from "../redux_slices/usersApiSlice";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
 

@@ -1,5 +1,5 @@
-import Dropdown from "./ProfileMenuDropdown"
-import Navbar from "./Navbar"
+import Dropdown from "../components/ProfileMenuDropdown"
+import Navbar from "../components/Navbar"
 
 const Home = () => {
   return (

@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-import { useForgotPasswordMutation } from '../slices/usersApiSlice';
+import { useForgotPasswordMutation } from '../redux_slices/usersApiSlice';
 import Loader from './Loader';
 
 const ForgotPassword = () => {

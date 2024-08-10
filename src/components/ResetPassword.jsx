@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import { useLocation, useNavigate } from "react-router-dom";
-import { useResetPasswordMutation } from "../slices/usersApiSlice";
+import { useResetPasswordMutation } from "../redux_slices/usersApiSlice";
 import Loader from "./Loader";
 
 const ResetPassword = () => {
